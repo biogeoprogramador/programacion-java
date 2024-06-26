@@ -1,4 +1,5 @@
 package Ejercicios_Juan_Antonio_López_Quesada;
+
 import java.util.Scanner;
 
 public class Ejercicio_1 {
