@@ -3,7 +3,7 @@ package Ejercicios_Juan_Antonio_López_Quesada;
 import java.util.Scanner;
 
 public class Ejercicio_1 {
-//Leer un número y mostrar por la salida estándar si dicho número es o no es par.
+    //Leer un número y mostrar por la salida estándar si dicho número es o no es par.
     public static void main(String[] args) {
         // crear objeto Scanner para el input por terminal
         Scanner input = new Scanner(System.in);
