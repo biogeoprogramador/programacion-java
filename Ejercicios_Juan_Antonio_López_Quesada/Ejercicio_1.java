@@ -1,8 +1,8 @@
 package Ejercicios_Juan_Antonio_López_Quesada;
-
 import java.util.Scanner;
 
 public class Ejercicio_1 {
+//Leer un número y mostrar por la salida estándar si dicho número es o no es par.
     public static void main(String[] args) {
         // crear objeto Scanner para el input por terminal
         Scanner input = new Scanner(System.in);
@@ -13,6 +13,7 @@ public class Ejercicio_1 {
         while (aux) {
             // control de excepción InputMismatchException
             try {
+                // entrada de número
                 num = input.nextInt();
                 // comprobar que el número no sea 0
                 if (num == 0) {
