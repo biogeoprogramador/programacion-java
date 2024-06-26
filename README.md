@@ -1,5 +1,5 @@
 # PROGRAMACIÓN JAVA
-* Ejercicios Juan Antonio López Quesada
+## Ejercicios Juan Antonio López Quesada
   1. Leer un número y mostrar por la salida estándar si dicho número es o no es par.
   2. Leer 2 números y mostrar el producto de ellos.
   3. Leer 2 números y determinar el mayor de ellos.
@@ -10,4 +10,3 @@
   8. Leer dos números y realizar el producto median sumas.
   9. Leer dos números y realizar la división mediante restas mostrando el cociente y el resto.
   10. Leer una secuencia de números y mostrar su producto, el proceso finalizará cuando el usuario pulse a la tecla F.
-* 
