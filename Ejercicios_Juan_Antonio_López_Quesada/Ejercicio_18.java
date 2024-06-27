@@ -7,7 +7,7 @@ public class Ejercicio_18 {
     // Leer una secuencia de números y mostrar los 30 primeros pares leídos.
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        int limInf, limSup, count = 0, num;
+        int limInf, limSup, count = 0;
         System.out.println("Rango de números para mostrar los 30 primeros números pares.");
         System.out.println("Introduzca el límite inferior del rango.");
         limInf = numInput(input);
