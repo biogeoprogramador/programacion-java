@@ -1,5 +1,6 @@
 package Ejercicios_Juan_Antonio_López_Quesada;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Ejercicio_4 {
@@ -45,7 +46,7 @@ public class Ejercicio_4 {
                         }
                     }
                 }
-            } catch (Exception InputMismatchException) {
+            } catch (InputMismatchException ex) {
                 System.out.println("Introduzca un número entero distinto a 0.");
                 input.nextLine();
             }

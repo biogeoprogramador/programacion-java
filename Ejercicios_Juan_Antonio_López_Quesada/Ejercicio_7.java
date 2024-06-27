@@ -1,5 +1,6 @@
 package Ejercicios_Juan_Antonio_López_Quesada;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Ejercicio_7 {
@@ -19,7 +20,7 @@ public class Ejercicio_7 {
                 // suma si entrada no negativo
                 if (num >= 0)
                     sum = sum + num;
-            } catch (Exception InputMismatchException) {
+            } catch (InputMismatchException ex) {
                 System.out.println("Introduzca un número entero.");
                 input.nextLine();
             }

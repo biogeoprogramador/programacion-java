@@ -1,5 +1,6 @@
 package Ejercicios_Juan_Antonio_López_Quesada;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Ejercicio_5 {
@@ -18,7 +19,7 @@ public class Ejercicio_5 {
                 num = input.nextInt();
                 input.nextLine();
                 aux = false;
-            } catch (Exception InputMismatchException) {
+            } catch (InputMismatchException ex) {
                 System.out.println("Introduzca un número entero.");
                 input.nextLine();
             }

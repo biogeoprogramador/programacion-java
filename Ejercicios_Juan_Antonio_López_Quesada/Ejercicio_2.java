@@ -1,5 +1,6 @@
 package Ejercicios_Juan_Antonio_López_Quesada;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Ejercicio_2 {
@@ -25,7 +26,7 @@ public class Ejercicio_2 {
                 // mostrar el prooducto de los dos números
                 System.out.println(num1 * num2 + " es el producto de los números.");
                 aux = false;
-            } catch (Exception InputMismatchException) {
+            } catch (InputMismatchException ex) {
                 System.out.println("Introduzca un número entero distinto a 0.");
                 input.nextLine();
             }
