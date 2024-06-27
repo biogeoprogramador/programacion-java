@@ -6,20 +6,20 @@ import java.util.Scanner;
 public class Ejercicio_14 {
     // Calcular la media de una secuencia de números.
     public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
         int count, sum = 0;
         double media;
         System.out.println("¿Cuántos números quiere introducir?");
-        count = numInputPositive();
+        count = numInputPositive(input);
         System.out.println("Introduzca " + count + " números.");
-
         for (int i = 0; i < count; i++) {
-            sum = sum + numInput();
+            sum = sum + numInput(input);
         }
-        System.out.println("MEDIA: " + (media = (double) sum / (double) count));
+        media = (double) sum / (double) count;
+        System.out.println("MEDIA: " + media);
+        input.close();
     }
-
-    public static int numInput() {
-        Scanner input = new Scanner(System.in);
+    public static int numInput(Scanner input) {
         boolean aux = true;
         int num = 0;
         System.out.println("Introduzca un número entero");
@@ -37,16 +37,12 @@ public class Ejercicio_14 {
         }
         return num;
     }
-
-    public static int numInputPositive() {
-        Scanner input = new Scanner(System.in);
+    public static int numInputPositive(Scanner input) {
         boolean aux = true;
         int num = 0;
         System.out.println("Introduzca un número entero");
         while (aux) {
-            // control de excepción InputMismatchException
             try {
-                // entrada de número
                 num = input.nextInt();
                 input.nextLine();
                 if (num > 0) {
@@ -59,7 +55,6 @@ public class Ejercicio_14 {
                 input.nextLine();
             }
         }
-        return num;
+        return num;        
     }
-
 }
