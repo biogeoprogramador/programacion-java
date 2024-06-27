@@ -15,11 +15,11 @@ public class Ejercicio_2 {
             // control de excepción InputMismatchException
             try {
                 // entrada primer número
-                System.out.println("Introduzca un número entero.");
+                System.out.println("Introduzca un primer número entero.");
                 num1 = input.nextInt();
                 input.nextLine();
                 // entrada segundo número
-                System.out.println("Introduzca un número entero.");
+                System.out.println("Introduzca un segundo número entero.");
                 num2 = input.nextInt();
                 input.nextLine();
                 // mostrar el prooducto de los dos números
