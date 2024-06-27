@@ -9,7 +9,7 @@ public class Ejercicio_9 {
         // crear objeto Scanner para el input por terminal
         Scanner input = new Scanner(System.in);
         // variables
-        int num1, num2, div, rest;
+        int num1, num2;
         boolean aux = true;
         // bucle while hasta que se complete la ejecución del programa
         while (aux) {
