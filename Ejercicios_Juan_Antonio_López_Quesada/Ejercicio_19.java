@@ -56,7 +56,7 @@ public class Ejercicio_19 {
     public static int numInputPositive(Scanner input) {
         boolean aux = true;
         int num = 0;
-        System.out.println("Introduzca un número entero");
+        //System.out.println("Introduzca un número entero");
         while (aux) {
             try {
                 num = input.nextInt();
