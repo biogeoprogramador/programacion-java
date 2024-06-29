@@ -20,3 +20,36 @@
   18. Leer una secuencia de números y mostrar los 30 primeros pares leídos.
   19. Leer una secuencia de números y mostrar la suma de los 30 números que ocupan posiciones de lectura par.
   20. Leer un número y determinar su factorial.
+  21. Leer un número y determinar si es o no es primo.
+  22. Leer una secuencia de 30 números y mostrar la suma de los primos.
+  23. Leer una secuencia de 30 números y mostrar la suma de su factorial.
+  24. Calcular el valor del número E= Suma(1/n!).
+  25. Implementar un programa que sea capaz de calcular el resultado de aplicar la fórmula siguiente (n i)=n! / (i! * (n-i)!).
+  26. Leer una secuencia de números y mostrar la suma de los pares y el producto de los que son múltiplo de 5.
+  27. Leer una secuencia de números y determinar el mayor de los pares leidos.
+  28. Leer una secuencia de números y mostrar el mayor de los múltiplos de 5 leídos y el menor de los múltiplos de 3 leídos.
+  29. Leer una secuencia de letras y mostrar la suma de sus códigos ASCII.
+  30. Dado un vector de 5 enteros actualizar cada pasición de dicho vector con un número leído.
+  31. Leer una secuencia de 20 números almacenarlos en un vector y mostrar la posición donde se encuentra el mayor valor leído.
+  32. Dado dos vectores A y B de 15 elementos cada uno, obtener un vector C donde la posición i se almacene la suma de A[i]+B[i].
+  33. Dado dos vectores A y B de 15 elementos cada uno, obtener un vector C donde la posición i se almacene la suma de A[i]+B[i] y mostrar el mayor de los C[i].
+  34. Dado una secuencia de número leídos y almacenados en un vector A mostrar dichos números en orden.
+  35. Dado una secuencia de número leídos y almacenados en un vector A y un número leído determinar si dicho número se encuentra o no en el vector.
+  36. Leer una secuencia de 20 números y almacenar en un vector sus factoriales.
+  37. Leer 20 números y almacenarlos de manera ordenada en un vector.
+  38. Dado dos matrices A y B obtener la suma.
+  39. Dado una matriz determinar la posición (i,j) del mayor.
+  40. Dado una matriz determinar la posición (i,j) del mayor y menor.
+  41. Leer un número y una letra si la letra es B mostrar el valor en binario, si es O en octal y si es H en hexadecimal.
+  42. Leer una secuencia de 20 números almacenarlos en un vector A[1..20] y mostar la suma de los elementos que ocupan posiciones pares y el mayor de los que ocupan posiciones impares.
+  43. Dada una matriz A[1..4][1..5] realiza la ordenación de la misma.
+  44. Dada una matriz A[1..4][1..5] realiza el proceso de ordenar solo por filas.
+  45. Dado un vector de números determina aquellos que sea primos.
+
+
+
+
+  
+## Adivina Número
+
+
