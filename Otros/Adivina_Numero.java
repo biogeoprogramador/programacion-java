@@ -1,4 +1,4 @@
-package Adivina_Numero;
+package Otros;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
