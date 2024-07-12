@@ -45,14 +45,10 @@
   43. Dada una matriz A[1..4][1..5] realiza la ordenación de la misma.
   44. Dada una matriz A[1..4][1..5] realiza el proceso de ordenar solo por filas.
   45. Dado un vector de números determina aquellos que sea primos.
-
-
-
-
-  
 ## Otros 
 1. Adivina Número
 2. Rellenar y mostrar un Array de dos dimensiones.
-
+## JavaSwing
+1. SumarApp
 
 
